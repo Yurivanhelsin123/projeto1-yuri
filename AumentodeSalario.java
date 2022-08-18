@@ -7,15 +7,15 @@ public static void main(String[] args) {
 	System.out.println("Qual o valor do seu salario? ");		
 	Scanner  d = new Scanner(System.in);
 	double salario = d.nextDouble();	
-	System.out.println("Se você teve promoção de cargo digite 1, "
-	+ "se teve aumento de salario por dissídio digite 2,se não teve aumento digite 3 ");
+	System.out.println("Se vocï¿½ teve promoï¿½ï¿½o de cargo digite 1, "
+	+ "se teve aumento de salario por dissï¿½dio digite 2,se nï¿½o teve aumento digite 3 ");
 	
 	int opcao = d.nextInt();
 	double salariofinal;
 	if(opcao ==1) {
 		double aumento = 0.3;
 		salariofinal = (salario * aumento)+ salario;		
-	}else if(opcao == 2) {
+	}else if(opcao == 2){
 		
 		salariofinal =salario + 100;
 	}else {		
@@ -23,9 +23,9 @@ public static void main(String[] args) {
 		salariofinal = salario;			
 	}
 			
-	System.out.println("Seu salário este ano será de "   +  salariofinal);			
-
-		//instrução switch
+	System.out.println("Seu salï¿½rio este ano serï¿½ de "   +  salariofinal);			
+System.out.printl("");
+		//instruï¿½ï¿½o switch
 	
 
    
